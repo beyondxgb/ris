@@ -1,0 +1,40 @@
+{
+  "name": "@ris/dev-server",
+  "version": "1.0.5",
+  "main": "src/index.js",
+  "description": "ris dev server.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "keywords": [
+    "ris",
+    "cli",
+    "server"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "beyondxgb@gmail.com",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@ris/utils": "^1.0.1",
+    "@ris/webpack-config": "^1.0.5",
+    "address": "^1.0.3",
+    "chalk": "^2.3.2",
+    "detect-port-alt": "^1.1.5",
+    "inquirer": "^5.1.0",
+    "is-root": "^1.0.0",
+    "lodash": "^4.17.5",
+    "react-dev-utils": "^5.0.0",
+    "webpack": "^4.41.2",
+    "webpack-dev-server": "^3.9.0"
+  }
+}

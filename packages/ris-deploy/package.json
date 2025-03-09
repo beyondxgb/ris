@@ -1,0 +1,31 @@
+{
+  "name": "@ris/deploy",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "description": "ris deploy command.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "keywords": [
+    "ris",
+    "cli",
+    "deploy"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "beyondxgb@gmail.com",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "inquirer": "^3.2.2"
+  }
+}

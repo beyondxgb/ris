@@ -1,0 +1,31 @@
+{
+  "name": "@ris/add",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "description": "ris add command.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "keywords": [
+    "ris",
+    "cli",
+    "add"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "beyondxgb@gmail.com",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "cross-spawn": "^6.0.5",
+    "plop": "^2.0.0"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "node": true
+  },
+  "parserOptions": {
+  },
+  "rules": {
+    "no-console": 0,
+    "global-require": 0,
+    "import/no-dynamic-require": 0,
+    "function-paren-newline": 0,
+    "prefer-template": 0,
+    "no-underscore-dangle": 0,
+    "no-bitwise": 0,
+  },
+  "globals": {
+    "it": true,
+    "expect": true,
+    "describe": true,
+    "beforeAll": true,
+    "beforeEach": true,
+    "afterAll": true,
+    "jest": true,
+  }
+}

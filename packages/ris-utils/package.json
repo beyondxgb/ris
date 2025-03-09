@@ -1,0 +1,34 @@
+{
+  "name": "@ris/utils",
+  "version": "1.0.1",
+  "main": "src/index.js",
+  "description": "ris utils.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "keywords": [
+    "ris",
+    "cli",
+    "utils"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "beyondxgb@gmail.com",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "del": "^3.0.0",
+    "fs-extra": "^5.0.0",
+    "webpack-merge": "^4.1.2",
+    "which": "^1.3.0"
+  }
+}
